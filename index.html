@@ -9,8 +9,7 @@
     <link rel="shortcut icon" href="linjiefavicon.ico" />
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
-    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/layout.css">    
 </head>
 
 <body>
@@ -43,17 +42,21 @@
                                     <a href="#">赛程须知</a>
                                 </li>
                                 <li>
-                                    <a href="#">荣誉墙</a>
+                                    <a href="#">报名通道</a>
                                 </li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li>
-                                    <a href="#">注册</a>
+                                    <a href="#">个人中心</a>
                                 </li>
                                 <li>
-                                    <a href="#">登录</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">注册</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target="#myModal-1">登录</a>
                                 </li>
                             </ul>
+
                         </div>
                     </div>
                 </nav>
@@ -157,24 +160,39 @@
                 <div class="ck-news-block">
                     <div class="block-top col-md-12">
                         <div class="left-block col-md-6">
-                            <a href="#">
-                                <div class="left-a">
+                            <div class="news-block">
+                                <div class="news-title">
+                                    <label>
+                                        比赛资讯
+                                    </label>
+                                    <div>
+                                        <a href="#">
+                                            更多
+                                        </a>
+                                    </div>
                                 </div>
-                            </a>
+                                <ul class="news-ul">
+                                    <li>1111111111111111</li>
+                                    <li>1111111111111111</li>
+                                    <li>1111111111111111</li>
+                                    <li>1111111111111111</li>
+                                    <li>1111111111111111</li>
+                                    <li>1111111111111111</li>
+                                    <li>1111111111111111</li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="right-block col-md-6">
                             <a href="#">
-                                <div class="right-a">
+                                <div class="right-img news-block">
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="block-bottom col-md-12">
-                       <a href="#">
-                        <div class="bottom-a">
-
-                        </div>
-                       </a>
+                        <a href="#">
+                            <img class="bottom-a" src="img/abc.jpg" alt="资讯">
+                        </a>
                     </div>
                     <div class="clearfloat">
                     </div>
@@ -188,14 +206,130 @@
                 <div class="process-block col-md-12">
                     <img src="img/abc.jpg" alt="报名流程">
                 </div>
-            </div>
-        </div>
-        <div class="ck-bottom">
-            <div>
-
+                <div class="clearfloat">
+                </div>
             </div>
         </div>
     </div>
+    <div class="ck-bottom">
+        <div class="footer">
+        </div>
+    </div>
+    <!-- 注册模态框 -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        用户注册
+                    </h4>
+                </div>
+                <!-- <div class="modal-body">
+                       用户注册
+                    </div> -->
+                <div class="modal-footer">
+                    <form class="form-horizontal" role="form" id="form1">
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-2 control-label">邮箱</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control required" id="email" name="email" placeholder="邮箱地址：">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-2 control-label">密码</label>
+                            <div class="col-sm-9">
+                                <input type="password" class="form-control required" id="password" name="password" placeholder="设置密码：">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-2 control-label">确认密码</label>
+                            <div class="col-sm-9">
+                                <input type="password" class="form-control required" id="checkpassword" name="checkpassword" placeholder="确认密码：">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-2 control-label">验证码</label>
+                            <div class="col-sm-9">
+                                <img src=".." alt="验证码">
+                                <input type="text" class="form-control required" id="vcode" name="vcode" placeholder="验证码：">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-8">
+                                <button type="button" class="btn btn-default" data-dismiss="modal" id="close">
+                                    关闭
+                                </button>
+                                <button type="button" class="btn btn-primary" id="submit" onclick="abc()">
+                                    提交
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <!-- 登录模态框 -->
+    <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel-1">
+                        用户登录
+                    </h4>
+                </div>
+                <!-- <div class="modal-body">
+                       用户注册
+                    </div> -->
+                <div class="modal-footer">
+                    <form class="form-horizontal" role="form" id="form-1">
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-2 control-label">邮箱</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control required" id="email-1" name="email" placeholder="邮箱地址：">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-2 control-label">密码</label>
+                            <div class="col-sm-9">
+                                <input type="password" class="form-control required" id="password-1" name="password" placeholder="设置密码：">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-2 control-label">验证码</label>
+                            <div class="col-sm-9">
+                                <img src=".." alt="验证码">
+                                <input type="text" class="form-control required" id="vcode-1" name="vcode" placeholder="验证码：">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-8">
+                                <button type="button" class="btn btn-default" data-dismiss="modal" id="close-1">
+                                    关闭
+                                </button>
+                                <button type="button" class="btn btn-primary" id="submit-1" onclick="abc()">
+                                    提交
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
