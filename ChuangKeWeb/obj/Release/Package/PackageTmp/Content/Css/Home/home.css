@@ -1,0 +1,112 @@
+
+.img-size img {
+    width: 1920px;
+}
+
+.ck-center {
+    padding-top: 50px;
+}
+
+.ck-ul {
+    width: 100%;
+}
+
+.ck-ul li {
+    display: inline-block;
+}
+
+.ck-ul li a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ck-ul li a img {
+    width: 239px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.ck-ul li a h5 {
+    display: inline-block;
+    text-align: center;
+}
+
+.ck-center h2 {
+    text-align: center;
+}
+
+.ck-p {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+.ck-news {
+    padding-top: 50px;
+}
+
+.ck-news-block p {
+    display: inline-block;
+}
+
+.left-block,
+.right-block {
+    padding: 15px;
+}
+
+.block-bottom {
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.process-block img {
+    width: 100%;
+}
+
+.ck-process {
+    margin-top: 100px;
+}
+
+.block-bottom a {
+    width: 100%;
+}
+
+.bottom-a {
+    width: 100%;
+}
+
+.news-block {
+    width: 100%;
+    height: 250px;
+}
+
+.right-img {
+    background-size: cover;
+    background: url(../../../Files/Chrysanthemum.jpg) no-repeat center;
+}
+
+.news-title {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-ul {
+    padding: 0px;
+}
+
+.news-ul li {
+    height: 30px;
+}
+
+.news-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

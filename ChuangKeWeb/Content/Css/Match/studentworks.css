@@ -1,0 +1,49 @@
+.secondmatch{   
+    display: none
+}
+.workname{
+    font-size: 35px;
+}
+.ck-workmessage{
+    margin-top: 100px;
+}
+.leftmessage{
+    width: 50%;
+    float: left;
+}
+.rightmessage{
+    width: 50%;
+    float: right;
+}
+.ck-workshow{
+    margin-top: 100px;
+}
+.ck-student{
+    margin-top: 100px;
+}
+.rightmessage{
+    text-align: center;
+}
+.rightmessage button{
+    width: 30%;
+    margin:0 auto;
+}
+.ck-workmessage{
+    border: 1px solid red;
+    padding: 10px;
+}
+.firstmatch{
+    background-color: #E6E6E6;
+    margin-top: 50px;
+}
+.ck-student li{
+    margin-top: 15px;
+    border: 1px solid red;
+}
+.ck-workshow div:first-child{
+    border: 1px solid red;
+    display: inline-block;
+    height: 50px;
+    font-size: 25px;
+    padding: 5px;
+}
