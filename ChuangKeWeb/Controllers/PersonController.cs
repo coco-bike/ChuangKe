@@ -14,5 +14,9 @@ namespace ChuangKeWeb.Controllers
         {
             return View();
         }
+        public ActionResult EditPerson()
+        {
+            return View();
+        }
 	}
 }

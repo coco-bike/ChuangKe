@@ -9,11 +9,9 @@
 }
 .leftmessage{
     width: 50%;
-    float: left;
 }
 .rightmessage{
     width: 50%;
-    float: right;
 }
 .ck-workshow{
     margin-top: 100px;
@@ -22,6 +20,7 @@
     margin-top: 100px;
 }
 .rightmessage{
+    margin-top: 20px;
     text-align: center;
 }
 .rightmessage button{
@@ -32,9 +31,12 @@
     border: 1px solid red;
     padding: 10px;
 }
-.firstmatch{
+.firstmatch,.secondmatch{
     background-color: #E6E6E6;
     margin-top: 50px;
+}
+.ck-student{
+    padding-left: 0px;
 }
 .ck-student li{
     margin-top: 15px;
@@ -46,4 +48,9 @@
     height: 50px;
     font-size: 25px;
     padding: 5px;
+}
+@media screen and (max-width: 500px){
+    .rightmessage{
+        width: 100%;
+    }
 }

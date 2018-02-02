@@ -1,0 +1,61 @@
+﻿.head-ico{
+    width: 150px;
+    height: 150px;
+    background: url(../../../Files/Chrysanthemum.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.head-ico img{
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    z-index: 99;
+}
+.head{
+    text-align: center;
+}
+
+.ck-ad{
+    width: 100%;
+    height: 200px;
+}
+.ck-head-right button{
+    margin: 0 auto;
+    width: 30%;
+}
+.ck-samllnav ul{
+    padding: 0;
+}
+.ck-samllnav ul li{
+    padding: 10px;
+    text-align: center;
+}
+.ck-samllnav ul li a:hover{
+    border: 1px solid aqua;
+}
+.ck-samllnav ul li a{
+    width: 70%;
+    font-size: 25px;
+    color: brown;
+    border-bottom: 1px solid aqua;
+    display: inline-block;
+}
+.li-style{
+    margin-top: 100px;
+    width: 100%;
+    padding: 0px 15% 0px 15%;
+}
+.li-style{
+   text-align: center;
+}
+.second-li{
+    
+}
+.third-li{
+    display: none;
+}
+.ck-lable{
+    height: 100%;
+}
