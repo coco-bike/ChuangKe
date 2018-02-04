@@ -64,3 +64,36 @@ G:\Git\ChuangKe\ChuangKeWeb\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 G:\Git\ChuangKe\ChuangKeWeb\obj\Debug\ChuangKeWeb.csprojResolveAssemblyReference.cache
 G:\Git\ChuangKe\ChuangKeWeb\obj\Debug\ChuangKeWeb.dll
 G:\Git\ChuangKe\ChuangKeWeb\obj\Debug\ChuangKeWeb.pdb
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\ChuangKeWeb.dll.config
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\ChuangKeWeb.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\ChuangKeWeb.pdb
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\Antlr3.Runtime.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\Newtonsoft.Json.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.Helpers.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.Mvc.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.Optimization.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.Razor.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.WebPages.Deployment.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.WebPages.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.WebPages.Razor.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\WebGrease.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.Helpers.xml
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.Mvc.xml
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.Optimization.xml
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.Razor.xml
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.WebPages.xml
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.WebPages.Deployment.xml
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\System.Web.WebPages.Razor.xml
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\Newtonsoft.Json.xml
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\Antlr3.Runtime.pdb
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\obj\Debug\ChuangKeWeb.csprojResolveAssemblyReference.cache
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\obj\Debug\ChuangKeWeb.dll
+E:\Git VersionControl\ChuangKe\ChuangKeWeb\obj\Debug\ChuangKeWeb.pdb
