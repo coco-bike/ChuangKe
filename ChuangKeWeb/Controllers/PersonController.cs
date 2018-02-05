@@ -14,7 +14,7 @@ namespace ChuangKeWeb.Controllers
         {
             return View();
         }
-        public ActionResult EditPerson()
+        public ActionResult ForgotPassword()
         {
             return View();
         }

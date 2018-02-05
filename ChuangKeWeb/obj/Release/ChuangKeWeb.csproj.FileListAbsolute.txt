@@ -30,3 +30,4 @@ G:\Git\ChuangKe\ChuangKeWeb\bin\zh-Hans\System.Web.WebPages.Deployment.resources
 G:\Git\ChuangKe\ChuangKeWeb\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 G:\Git\ChuangKe\ChuangKeWeb\obj\Release\ChuangKeWeb.dll
 G:\Git\ChuangKe\ChuangKeWeb\obj\Release\ChuangKeWeb.pdb
+G:\Git\ChuangKe\ChuangKeWeb\obj\Release\ChuangKeWeb.csprojResolveAssemblyReference.cache

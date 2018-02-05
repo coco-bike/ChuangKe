@@ -3,14 +3,19 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @section MySection{
-    <link href="~/Content/Css/Person/works.css" rel="stylesheet" />
-}
+    <link href="~/Content/Plugin/pageBar/pageBar.css" rel="stylesheet" />
+    <link href="~/Content/Css/Match/works.css" rel="stylesheet" />
 
+}
+@section MySection1{
+    <script src="~/Content/Plugin/pageBar/pageBar.js"></script>
+    <script src="~/Content/Script/Match/works.js"></script>
+}
 <div class="container">
     <div class="ck-works-show">
         <h2>作品展示</h2>
-        <ul class="col-md-12">
-            <li class="col-md-3 ck-work">
+        <ul class="col-md-12" id="ck-works">
+            <li class="col-md-3 ck-work" id="ck-work1">
                 <div class="ck-border">
                     <img src="../Files/Chrysanthemum.jpg" alt="学生作品">
                     <div class="work-message">
@@ -29,7 +34,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-md-3 ck-work">
+            <li class="col-md-3 ck-work" id="ck-work2">
                 <div class="ck-border">
                     <img src="../Files/Chrysanthemum.jpg" alt="学生作品">
                     <div class="work-message">
@@ -48,7 +53,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-md-3 ck-work">
+            <li class="col-md-3 ck-work" id="ck-work3">
                 <div class="ck-border">
                     <img src="../Files/Chrysanthemum.jpg" alt="学生作品">
                     <div class="work-message">
@@ -67,7 +72,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-md-3 ck-work">
+            <li class="col-md-3 ck-work" id="ck-work4">
                 <div class="ck-border">
                     <img src="../Files/Chrysanthemum.jpg" alt="学生作品">
                     <div class="work-message">
@@ -86,7 +91,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-md-3 ck-work">
+            <li class="col-md-3 ck-work" id="ck-work5">
                 <div class="ck-border">
                     <img src="../Files/Chrysanthemum.jpg" alt="学生作品">
                     <div class="work-message">
@@ -105,7 +110,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-md-3 ck-work">
+            <li class="col-md-3 ck-work" id="ck-work6">
                 <div class="ck-border">
                     <img src="../Files/Chrysanthemum.jpg" alt="学生作品">
                     <div class="work-message">
@@ -124,7 +129,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-md-3 ck-work">
+            <li class="col-md-3 ck-work" id="ck-work7">
                 <div class="ck-border">
                     <img src="../Files/Chrysanthemum.jpg" alt="学生作品">
                     <div class="work-message">
@@ -143,7 +148,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-md-3 ck-work">
+            <li class="col-md-3 ck-work" id="ck-work8">
                 <div class="ck-border">
                     <img src="../Files/Chrysanthemum.jpg" alt="学生作品">
                     <div class="work-message">
@@ -163,6 +168,7 @@
                 </div>
             </li>
         </ul>
+        <div class="page_wrap" id="J_page_wrap"></div> 
     </div>
 </div>
 

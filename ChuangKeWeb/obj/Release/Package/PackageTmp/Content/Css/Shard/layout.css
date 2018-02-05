@@ -19,10 +19,6 @@ ul {
 .clearfloat {
     clear: both;
 }
-.form-group .col-sm-9 {
-    height: 60px;
-    text-align: left;
-}
 .footer {
     width: 100%;
     height: 100px;
@@ -34,4 +30,11 @@ ul {
 }
 .ck-bottom {
     margin-top: 100px;
+}
+.forgotpassword{
+    width: 30%;
+    display: inline-block;
+}
+.ck-code{
+    float: left;
 }

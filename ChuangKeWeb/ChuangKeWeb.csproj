@@ -109,7 +109,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Files\ico\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +130,7 @@
     <Content Include="Content\Css\Match\studentworks.css" />
     <Content Include="Content\Css\News\news.css" />
     <Content Include="Content\Css\Match\apply.css" />
+    <Content Include="Content\Css\Person\forgotpassword.css" />
     <Content Include="Content\Css\Person\person.css" />
     <Content Include="Content\Css\Match\works.css" />
     <Content Include="Content\Css\Shard\layout.css" />
@@ -138,6 +138,7 @@
     <Content Include="Content\Plugin\pageBar\pageBar.js" />
     <Content Include="Content\Script\Home\home.js" />
     <Content Include="Content\Script\Match\studentworks.js" />
+    <Content Include="Content\Script\Person\forgotpassword.js" />
     <Content Include="Content\Script\Person\pserson.js" />
     <Content Include="Content\Script\Match\works.js" />
     <Content Include="Content\Script\Shard\layout.js" />
@@ -151,6 +152,13 @@
     <Content Include="Files\head-02.png" />
     <Content Include="Files\head-03.png" />
     <Content Include="Files\head-04.png" />
+    <Content Include="Files\ico\1-.png" />
+    <Content Include="Files\ico\2-.png" />
+    <Content Include="Files\ico\3-.png" />
+    <Content Include="Files\ico\fail.png" />
+    <Content Include="Files\ico\man.png" />
+    <Content Include="Files\ico\success.png" />
+    <Content Include="Files\ico\woman.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -180,7 +188,7 @@
     <Content Include="Views\News\News.cshtml" />
     <Content Include="Views\Match\StudentWorks.cshtml" />
     <None Include="Properties\PublishProfiles\123.pubxml" />
-    <Content Include="Views\Person\EditPerson.cshtml" />
+    <Content Include="Views\Person\ForgotPassword.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
