@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section MySection1{
+
+<script src="https://cdn.bootcss.com/vue/2.5.13/vue.js"></script>
+<script src="https://cdn.bootcss.com/axios/0.17.1/axios.js"></script>
+
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            a: true,
+            items: []
+        },
+        mounted: function () {
+            axios.get('../test.json').then(function (response) {
+                vm.items = response.data;
+            })
+        }
+    })
+</script>
+
+}
+
+<div id="app">
+    <ul>
+        <li v-for="item in items">
+            {{(new Date(item.date)).getMonth()+1}}+{{item.title}}
+            +{{item.content}}+{{(new Date(item.date)).getDate()}}
+        </li>
+    </ul>
+</div>

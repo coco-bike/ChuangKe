@@ -119,6 +119,7 @@
     <Compile Include="Controllers\MatchController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Controllers\PersonController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -128,6 +129,7 @@
     <Content Include="Content\Css\Home\home.css" />
     <Content Include="Content\Css\Match\match.css" />
     <Content Include="Content\Css\Match\studentworks.css" />
+    <Content Include="Content\Css\News\newcontent.css" />
     <Content Include="Content\Css\News\news.css" />
     <Content Include="Content\Css\Match\apply.css" />
     <Content Include="Content\Css\Person\forgotpassword.css" />
@@ -138,6 +140,7 @@
     <Content Include="Content\Plugin\pageBar\pageBar.js" />
     <Content Include="Content\Script\Home\home.js" />
     <Content Include="Content\Script\Match\studentworks.js" />
+    <Content Include="Content\Script\News\news.js" />
     <Content Include="Content\Script\Person\forgotpassword.js" />
     <Content Include="Content\Script\Person\pserson.js" />
     <Content Include="Content\Script\Match\works.js" />
@@ -179,6 +182,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
+    <Content Include="1.json" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Match\Apply.cshtml" />
@@ -189,6 +193,9 @@
     <Content Include="Views\Match\StudentWorks.cshtml" />
     <None Include="Properties\PublishProfiles\123.pubxml" />
     <Content Include="Views\Person\ForgotPassword.cshtml" />
+    <Content Include="Views\News\NewContent.cshtml" />
+    <Content Include="Views\Test\Index.cshtml" />
+    <Content Include="t.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

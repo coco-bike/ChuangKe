@@ -6,15 +6,11 @@ using System.Web.Mvc;
 
 namespace ChuangKeWeb.Controllers
 {
-    public class NewsController : Controller
+    public class TestController : Controller
     {
         //
-        // GET: /News/
-        public ActionResult News()
-        {
-            return View();
-        }
-        public ActionResult NewContent()
+        // GET: /Test/
+        public ActionResult Index()
         {
             return View();
         }
