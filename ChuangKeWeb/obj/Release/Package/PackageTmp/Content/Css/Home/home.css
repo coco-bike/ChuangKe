@@ -5,6 +5,7 @@
 
 .ck-center {
     padding-top: 50px;
+    /* background-color: #f2f2f2; */
 }
 
 .ck-ul {
@@ -38,11 +39,8 @@
 }
 
 .ck-p {
-    margin-top: 50px;
-    margin-bottom: 25px;
     font-size: 18px;
-    letter-spacing: 2px;
-    padding: 15px;
+    letter-spacing: 1px;
 }
 
 .ck-news {
@@ -55,7 +53,7 @@
 
 .left-block,
 .right-block {
-    padding: 15px;
+ 
 }
 
 .block-bottom {
@@ -82,31 +80,68 @@
 
 .news-block {
     width: 100%;
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(30, 185, 239,0.5);
 }
 
 .right-img {
     background-size: cover;
-    background: url(../../../Files/Chrysanthemum.jpg) no-repeat center;
+    background: url(../../../Files/Img/Home/apply.jpg) no-repeat center;
+    height: 500px;
 }
 
 .news-title {
-    font-size: 16px;
-    display: flex;
-    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px;
+    overflow: hidden;
 }
 
+.news-title div img{
+    width: 300px;
+}
+.news-title div a{
+    float: right;
+    color: rgb(132, 111, 176);
+}
 .news-ul {
     padding: 0px;
 }
 
 .news-ul li {
-    height: 30px;
+   padding: 10px;
+   border-top:1px solid rgba(30, 185, 239,0.5);
+}
+.news-ul li .col-md-3 img{
+    width: 80px;
+}
+.news-ul li .col-md-9 a p{
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
-.news-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.ck-apply div img{
+    margin-left: 10px;
+    width: 300px;
 }
-
+.process-block div .col-md-2{
+    margin-top: 15px;
+    text-align: center;
+}
+.process-block div .col-md-2 div{
+    border-radius: 15px;
+    box-shadow: 5px 10px 2px #888888;
+    border: 1px solid #888888;
+    width: 95%;
+}
+.process-block div .col-md-2 div img{
+    width: 100%;
+}
+.process-block div .col-md-2 div p{
+    text-align: center;
+}

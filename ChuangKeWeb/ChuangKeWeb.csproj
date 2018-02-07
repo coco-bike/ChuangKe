@@ -109,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Files\Img\Match\student\" />
+    <Folder Include="Files\Img\Match\teacher\" />
+    <Folder Include="Files\Img\Person\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +165,15 @@
     <Content Include="Files\ico\man.png" />
     <Content Include="Files\ico\success.png" />
     <Content Include="Files\ico\woman.png" />
+    <Content Include="Files\Img\Home\head-01.png" />
+    <Content Include="Files\Img\Home\head-02.png" />
+    <Content Include="Files\Img\Home\head-03.png" />
+    <Content Include="Files\Img\Home\head-04.png" />
+    <Content Include="Files\Img\Layout\bananer-1.jpg" />
+    <Content Include="Files\Img\Layout\bananer-2.jpg" />
+    <Content Include="Files\Img\Layout\bananer-3.jpg" />
+    <Content Include="Files\Img\Layout\bananer-4.jpg" />
+    <Content Include="Files\Img\Layout\chuangke.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />

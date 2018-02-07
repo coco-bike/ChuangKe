@@ -70,18 +70,35 @@
 .ck-lable {
    width:60px; 
 }
-.form-group {
+.li-style .form-group {
     margin-top: 20px;
+}
+#sex{
+    width: 47%;
 }
 /* .form-group label{
    width: 0px;
 } */
 
-select{
+/* select{
     display: inline-block;
     width: 48%;
     height: 34px;
-}
+} */
 /* .second-li form .form-group input{
     width: 80%;
 } */
+.ck-poll img{
+    width: 300px;
+}
+@media screen and (max-width:777px) {
+    .ck-m  .col-sm-2{
+        float: left;
+    }
+    .ck-vcode .form-control{
+        width: 100%;
+    }
+    .ck-m .form-group {
+        height: 80px;
+    }
+}

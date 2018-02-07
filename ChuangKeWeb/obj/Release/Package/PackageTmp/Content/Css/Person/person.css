@@ -70,7 +70,7 @@
 .ck-lable {
    width:60px; 
 }
-.form-group {
+.li-style .form-group {
     margin-top: 20px;
 }
 /* .form-group label{
@@ -85,3 +85,6 @@ select{
 /* .second-li form .form-group input{
     width: 80%;
 } */
+.ck-poll img{
+    width: 300px;
+}

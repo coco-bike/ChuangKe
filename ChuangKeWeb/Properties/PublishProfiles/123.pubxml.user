@@ -9,11 +9,14 @@
     <_PublishTargetUrl>G:\Git\创客平台web</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="1.json">
+      <publishTime>02/06/2018 09:24:37</publishTime>
+    </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>02/01/2018 13:14:52</publishTime>
     </File>
     <File Include="bin/ChuangKeWeb.dll">
-      <publishTime>02/05/2018 16:30:13</publishTime>
+      <publishTime>02/07/2018 17:49:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>02/01/2018 13:14:51</publishTime>
@@ -67,22 +70,25 @@
       <publishTime>02/01/2018 13:14:53</publishTime>
     </File>
     <File Include="Content/Css/Home/home.css">
-      <publishTime>02/01/2018 14:13:25</publishTime>
+      <publishTime>02/07/2018 13:19:54</publishTime>
     </File>
     <File Include="Content/Css/Match/apply.css">
       <publishTime>02/01/2018 09:41:05</publishTime>
     </File>
     <File Include="Content/Css/Match/match.css">
-      <publishTime>02/01/2018 09:38:57</publishTime>
+      <publishTime>02/07/2018 14:34:15</publishTime>
     </File>
     <File Include="Content/Css/Match/studentworks.css">
-      <publishTime>02/02/2018 09:41:29</publishTime>
+      <publishTime>02/07/2018 17:40:04</publishTime>
     </File>
     <File Include="Content/Css/Match/works.css">
-      <publishTime>02/01/2018 11:26:45</publishTime>
+      <publishTime>02/07/2018 15:04:02</publishTime>
+    </File>
+    <File Include="Content/Css/News/newcontent.css">
+      <publishTime>02/06/2018 13:32:36</publishTime>
     </File>
     <File Include="Content/Css/News/news.css">
-      <publishTime>02/01/2018 15:18:23</publishTime>
+      <publishTime>02/06/2018 14:42:52</publishTime>
     </File>
     <File Include="Content/Css/Person/apply.css">
       <publishTime>02/01/2018 09:41:05</publishTime>
@@ -91,13 +97,13 @@
       <publishTime>02/05/2018 15:41:43</publishTime>
     </File>
     <File Include="Content/Css/Person/person.css">
-      <publishTime>02/05/2018 16:18:48</publishTime>
+      <publishTime>02/07/2018 17:13:33</publishTime>
     </File>
     <File Include="Content/Css/Person/works.css">
       <publishTime>02/01/2018 11:26:45</publishTime>
     </File>
     <File Include="Content/Css/Shard/layout.css">
-      <publishTime>02/05/2018 16:14:13</publishTime>
+      <publishTime>02/07/2018 16:57:37</publishTime>
     </File>
     <File Include="Content/Plugin/pageBar/pageBar.css">
       <publishTime>09/27/2017 09:47:17</publishTime>
@@ -106,22 +112,25 @@
       <publishTime>02/02/2018 13:40:09</publishTime>
     </File>
     <File Include="Content/Script/Home/home.js">
-      <publishTime>01/31/2018 15:49:09</publishTime>
+      <publishTime>02/07/2018 16:21:11</publishTime>
     </File>
     <File Include="Content/Script/Match/studentworks.js">
       <publishTime>02/02/2018 09:21:07</publishTime>
     </File>
     <File Include="Content/Script/Match/works.js">
-      <publishTime>02/02/2018 13:38:14</publishTime>
+      <publishTime>02/05/2018 17:09:08</publishTime>
+    </File>
+    <File Include="Content/Script/News/news.js">
+      <publishTime>02/06/2018 10:13:10</publishTime>
     </File>
     <File Include="Content/Script/Person/forgotpassword.js">
-      <publishTime>02/05/2018 14:27:37</publishTime>
+      <publishTime>02/05/2018 17:08:57</publishTime>
     </File>
     <File Include="Content/Script/Person/pserson.js">
       <publishTime>02/05/2018 10:11:37</publishTime>
     </File>
     <File Include="Content/Script/Shard/layout.js">
-      <publishTime>02/01/2018 14:15:49</publishTime>
+      <publishTime>02/07/2018 16:59:38</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/01/2018 13:14:32</publishTime>
@@ -174,6 +183,33 @@
     <File Include="Files/ico/woman.png">
       <publishTime>02/02/2018 14:27:46</publishTime>
     </File>
+    <File Include="Files/Img/Home/head-01.png">
+      <publishTime>01/30/2018 14:50:50</publishTime>
+    </File>
+    <File Include="Files/Img/Home/head-02.png">
+      <publishTime>01/30/2018 14:51:48</publishTime>
+    </File>
+    <File Include="Files/Img/Home/head-03.png">
+      <publishTime>01/30/2018 14:53:06</publishTime>
+    </File>
+    <File Include="Files/Img/Home/head-04.png">
+      <publishTime>01/30/2018 14:54:17</publishTime>
+    </File>
+    <File Include="Files/Img/Layout/bananer-1.jpg">
+      <publishTime>02/06/2018 17:39:28</publishTime>
+    </File>
+    <File Include="Files/Img/Layout/bananer-2.jpg">
+      <publishTime>02/06/2018 17:41:47</publishTime>
+    </File>
+    <File Include="Files/Img/Layout/bananer-3.jpg">
+      <publishTime>02/06/2018 17:43:30</publishTime>
+    </File>
+    <File Include="Files/Img/Layout/bananer-4.jpg">
+      <publishTime>02/06/2018 17:44:54</publishTime>
+    </File>
+    <File Include="Files/Img/Layout/chuangke.png">
+      <publishTime>02/06/2018 15:52:16</publishTime>
+    </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
       <publishTime>02/01/2018 13:14:42</publishTime>
     </File>
@@ -192,23 +228,29 @@
     <File Include="packages.config">
       <publishTime>02/01/2018 13:14:53</publishTime>
     </File>
+    <File Include="t.json">
+      <publishTime>02/06/2018 16:31:48</publishTime>
+    </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/01/2018 14:09:13</publishTime>
+      <publishTime>02/07/2018 13:13:42</publishTime>
     </File>
     <File Include="Views/Match/Apply.cshtml">
       <publishTime>02/01/2018 14:46:34</publishTime>
     </File>
     <File Include="Views/Match/Match.cshtml">
-      <publishTime>02/01/2018 14:18:20</publishTime>
+      <publishTime>02/07/2018 14:32:18</publishTime>
     </File>
     <File Include="Views/Match/StudentWorks.cshtml">
-      <publishTime>02/02/2018 09:33:16</publishTime>
+      <publishTime>02/07/2018 17:40:28</publishTime>
     </File>
     <File Include="Views/Match/Works.cshtml">
-      <publishTime>02/02/2018 13:50:11</publishTime>
+      <publishTime>02/07/2018 15:02:26</publishTime>
+    </File>
+    <File Include="Views/News/NewContent.cshtml">
+      <publishTime>02/06/2018 13:31:18</publishTime>
     </File>
     <File Include="Views/News/News.cshtml">
-      <publishTime>02/01/2018 15:18:52</publishTime>
+      <publishTime>02/06/2018 14:43:53</publishTime>
     </File>
     <File Include="Views/Person/ForgotPassword.cshtml">
       <publishTime>02/05/2018 15:37:16</publishTime>
@@ -220,7 +262,10 @@
       <publishTime>02/01/2018 13:14:32</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>02/05/2018 16:16:14</publishTime>
+      <publishTime>02/07/2018 16:58:15</publishTime>
+    </File>
+    <File Include="Views/Test/Index.cshtml">
+      <publishTime>02/06/2018 16:32:56</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>02/01/2018 13:14:32</publishTime>

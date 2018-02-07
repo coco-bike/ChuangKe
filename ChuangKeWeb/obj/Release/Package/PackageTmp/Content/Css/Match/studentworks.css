@@ -17,7 +17,8 @@
     margin-top: 100px;
 }
 .ck-student{
-    margin-top: 100px;
+    margin-top: 240px;
+    padding-left: 0px;
 }
 .rightmessage{
     margin-top: 20px;
@@ -35,12 +36,11 @@
     background-color: #E6E6E6;
     margin-top: 50px;
 }
-.ck-student{
-    padding-left: 0px;
-}
+
 .ck-student li{
     margin-top: 15px;
     border: 1px solid red;
+    padding: 15px 0px 15px 0px;
 }
 .ck-workshow div:first-child{
     border: 1px solid red;
@@ -49,8 +49,30 @@
     font-size: 25px;
     padding: 5px;
 }
+.ck-poll img{
+    width: 300px;
+}
+.student-img{
+    text-align: center;
+}
+.student-img img{
+    width: 100px;
+}
+.student-name{
+    text-align: center;
+}
+.student-name div{
+    margin-top: 15px;
+    width: 100%;
+}
+.student-name div p{
+ display: inline-block;
+}
 @media screen and (max-width: 500px){
     .rightmessage{
         width: 100%;
+    }
+    .ck-student{
+        margin-top: 50px;
     }
 }

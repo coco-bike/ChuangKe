@@ -42,7 +42,7 @@
                                 </li>
                                 <li>
                                     <a href="../../news/news">资讯动态</a>
-                                </li>                    
+                                </li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li>
@@ -67,6 +67,30 @@
 
     <div class="ck-bottom">
         <div class="footer">
+            <div class="col-md-3">
+                <div class="ck-qrcode">
+                    <img src="../../Files/Chrysanthemum.jpg" alt="创客二维码">
+                    <p>扫一扫关注微信公众号</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="ck-footermessge">
+                    <p>南京市龙文教育有限公司</p>
+                    <p>主管：南京市教育局 &nbsp;主办：南京市电化教育馆&nbsp;<a class="link link-white" href="http://www.miibeian.gov.cn/">苏ICP备XXXXXXXXXX号-1</a></p>
+                    <p>技术支持：南京市临界风行科技有限公司&nbsp; Copyright © 2018 All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ck-attention">
+                    <img src="../../Files/Chrysanthemum.jpg" alt="新浪微博">
+                    <img src="../../Files/Chrysanthemum.jpg" alt="微信">
+                </div>
+                <div class="ck-us">
+                    <p>关注我们</p>
+                </div>
+            </div>
+            <div class="clearfloat">
+            </div>
         </div>
     </div>
     <!-- 注册模态框 -->
@@ -77,9 +101,12 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                         &times;
                     </button>
-                    <h4 class="modal-title" id="myModalLabel">
-                        用户注册
-                    </h4>
+                    <div class="modal-title" id="myModalLabel-1">
+                        <div class="loginimg">
+                            <img src="../../Files/Img/Match/match-2.png" alt="">
+                        </div>
+                        <h4>创客用户注册</h4>
+                    </div>
                 </div>
                 <!-- <div class="modal-body">
                        用户注册
@@ -90,29 +117,33 @@
                             <label for="firstname" class="col-sm-2 control-label">邮箱</label>
                             <div class="col-sm-9">
                                 <input type="text" class="form-control required" id="email" name="email" placeholder="邮箱地址：">
+                    
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="firstname" class="col-sm-2 control-label">密码</label>
                             <div class="col-sm-9">
                                 <input type="password" class="form-control required" id="password" name="password" placeholder="设置密码：">
+         
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="firstname" class="col-sm-2 control-label">确认密码</label>
                             <div class="col-sm-9">
                                 <input type="password" class="form-control required" id="checkpassword" name="checkpassword" placeholder="确认密码：">
+
                             </div>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group ck-vcode">
                             <label for="firstname" class="col-sm-2 control-label">验证码</label>
                             <div class="col-sm-9">
-                                <img class="ck-code" src=".." alt="验证码">
-                                <div class="clearfloat"></div>
-                                <input type="text" class="form-control required" id="vcode" name="vcode" placeholder="验证码：">
+                                <img class="ck-code col-sm-4" src="../../Files/code.png" alt="验证码">
+                                <input type="text" class="form-control required col-sm-8" id="vcode" name="vcode" placeholder="验证码：">
+
                             </div>
+                            <div class="clearfloat"></div>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group ck-buttom">
                             <div class="col-sm-offset-2 col-sm-8">
                                 <button type="button" class="btn btn-default" data-dismiss="modal" id="close">
                                     关闭
@@ -137,12 +168,15 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                         &times;
                     </button>
-                    <h4 class="modal-title" id="myModalLabel-1">
-                        用户登录
-                    </h4>
+                    <div class="modal-title" id="myModalLabel-1">
+                        <div class="loginimg">
+                            <img src="../../Files/Img/Match/match-2.png" alt="">
+                        </div>
+                        <h4>创客用户登录</h4>
+                    </div>
                 </div>
                 <!-- <div class="modal-body">
-                       用户注册
+                       用户登录
                     </div> -->
                 <div class="modal-footer">
                     <form class="form-horizontal" role="form" id="form-1">
@@ -150,24 +184,27 @@
                             <label for="firstname" class="col-sm-2 control-label">邮箱</label>
                             <div class="col-sm-9">
                                 <input type="text" class="form-control required" id="email-1" name="email" placeholder="邮箱地址：">
+            
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="firstname" class="col-sm-2 control-label">密码</label>
                             <div class="col-sm-9">
                                 <input type="password" class="form-control required" id="password-1" name="password" placeholder="密码：">
+     
                             </div>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group ck-vcode">
                             <label for="firstname" class="col-sm-2 control-label">验证码</label>
                             <div class="col-sm-9">
-                                <img class="ck-code" src=".." alt="验证码">
-                                <input type="text" class="form-control required" id="vcode-1" name="vcode" placeholder="验证码：">
+                                <img class="ck-code col-sm-4" src="../../Files/code.png" alt="验证码">
+                                <input type="text" class="form-control required col-sm-8" id="vcode-1" name="vcode" placeholder="验证码：">
                             </div>
+                            <div class="clearfloat"></div>
                         </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-8">                                
-                                <a class="btn btn-large btn-block btn-danger forgotpassword" href="../../person/forgotpassword" role="button">忘记密码</a>                                
+                        <div class="form-group ck-buttom">
+                            <div class="col-sm-offset-2 col-sm-8">
+                                <a class="btn btn-large btn-block btn-danger forgotpassword" href="../../person/forgotpassword" role="button">忘记密码</a>
                                 <button type="button" class="btn btn-default" data-dismiss="modal" id="close-1">
                                     关闭
                                 </button>

@@ -1,9 +1,12 @@
-.ck-works-show h2{
-    height: 100px;
-    border-bottom: 1px solid black;
+.ck-works-show div:first-child {
+    border-bottom: 1px solid rgba(30, 185, 239,0.5);
 }
+.ck-works-show div img{
+    width: 300px;
+}
+
 .ck-work {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 .ck-work .ck-border img {
     width: 100%;
@@ -49,3 +52,7 @@
 .work-message span p {
     display: inline-block;
 } */
+.ck-pagination{
+   width: 100%;
+   text-align: center;
+}

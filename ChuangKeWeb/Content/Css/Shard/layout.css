@@ -1,73 +1,135 @@
 * {
     font-family: "微软雅黑";
 }
+
 a {
     text-decoration: none;
     list-style: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
+
 ul {
     list-style: none;
     margin-bottom: 0;
 }
-.navbar-left li a{
+
+.navbar-left li a {
     line-height: 30px;
     font-size: 18px;
 }
-.navbar-right li a{
+
+.navbar-right li a {
     line-height: 30px;
     font-size: 18px;
 }
+
 .brand {
     width: 150px;
     background: url(../../../Files/Img/Layout/chuangke.png) no-repeat center;
     background-size: cover;
 }
+
 .clearfloat {
     clear: both;
 }
-.ck-head img{
+
+.ck-head img {
     width: 100%;
 }
+
 .ck-bottom {
     margin-top: 100px;
 }
-.forgotpassword{
+
+.forgotpassword {
     width: 30%;
     display: inline-block;
 }
-.ck-code{
+
+.ck-code {
+    border: 1px solid rgba(40, 40, 40, 0.5);
     float: left;
+    width: 120px;
 }
+
 .footer {
     width: 100%;
     padding: 15px;
     background-color: lightblue;
     border-radius: 5px;
 }
-.ck-qrcode{
+
+.ck-qrcode {
     text-align: center;
 }
-.ck-qrcode p{
+
+.ck-qrcode p {
     margin-top: 10px;
 }
-.ck-qrcode img{
+
+.ck-qrcode img {
     width: 60px;
     height: 60px;
 }
-.ck-attention img{
+
+.ck-attention img {
     width: 60px;
     height: 60px;
 }
-.ck-footermessge{
+
+.ck-footermessge {
     text-align: center;
 }
-.ck-attention{
+
+.ck-attention {
     text-align: center;
 }
-.ck-us{
+
+.ck-us {
     margin-top: 10px;
     text-align: center;
 }
+
+.loginimg {
+    display: inline-block;
+}
+
+.ck-m  h4 {
+    display: inline-block;
+}
+
+.loginimg img {
+    width: 80px;
+}
+.ck-m .form-group {
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+.ck-vcode .form-control{
+    width: 71%;
+}
+.msg{
+    float: left;
+    font-size: 14px;
+    color: red;
+    margin-left: 5px;
+}
+.ck-buttom{
+    margin-top: 30px;
+}
+@media screen and (max-width:777px) {
+    .ck-m  .col-sm-2{
+        float: left;
+    }
+    .ck-vcode .form-control{
+        width: 100%;
+    }
+    .ck-m .form-group {
+        height: 80px;
+    }
+}
+

@@ -39,3 +39,9 @@ function getMessage(page_now) {
         }
     });
 };
+
+$(function(){
+    $(".ck-border").click(function(){
+        window.location.href="../../../match/studentworks";
+    })
+})
