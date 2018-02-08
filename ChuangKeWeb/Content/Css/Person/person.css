@@ -28,7 +28,13 @@
     margin: 0 auto;
     width: 30%;
 }
-
+.ck-samllnav{
+    font-size: 20px;
+}
+.ck-studentmessage{
+    margin-top: 50px;
+}
+/* 
 .ck-samllnav ul {
     padding: 0;
 }
@@ -48,22 +54,30 @@
     color: brown;
     border-bottom: 1px solid aqua;
     display: inline-block;
-}
+} */
 
 .li-style {
     margin-top: 100px;
     width: 100%;
     padding: 15px 15% 15px 15%;
-    text-align: center;
-    border: 1px solid black;
+    background-color: #99CCFF;
+    border-radius: 50px 0px 25px 0px;
 }
-
+.first-li{
+    text-align: center;
+}
 .second-li {
+    padding: 25px 0px 25px 0px;
+    background-color: #99CCFF;
+    border-radius: 50px 0px 25px 0px;
+    margin-top: 100px;
     display: none;
-    padding: 0px 50px 0px 50px;
 }
 
 .third-li {
+    display: none;
+}
+.forth-li{
     display: none;
 }
 
@@ -91,6 +105,39 @@
 .ck-poll img{
     width: 300px;
 }
+.ck-submit-1{
+    margin-top: 25px;
+}
+.ck-apply
+{
+    width: 600px;
+    margin:  0 auto;
+}
+.ck-apply p:first-child{
+    color: red;
+}
+.ck-lable{
+    width: 100%;
+}
+.ck-studentinput{
+    display: inline-block;
+    width: 25%;
+}
+.ck-apply a{
+    color: rgba(51, 51, 51, 1);
+}
+.ck-submit{
+    width: 100%;
+    text-align: center;
+}
+.ck-submit button{
+    background-color: #ED8586;
+}
+@media screen and (max-width:600px) {
+  .ck-apply{
+      width: 100%;
+  }
+}
 @media screen and (max-width:777px) {
     .ck-m  .col-sm-2{
         float: left;
@@ -100,5 +147,8 @@
     }
     .ck-m .form-group {
         height: 80px;
+    }
+    #sex{
+        width: 100%;
     }
 }

@@ -111,6 +111,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Files\Img\Match\student\" />
     <Folder Include="Files\Img\Match\teacher\" />
+    <Folder Include="Files\Img\News\" />
     <Folder Include="Files\Img\Person\" />
     <Folder Include="Models\" />
   </ItemGroup>
@@ -142,6 +143,7 @@
     <Content Include="Content\Plugin\pageBar\pageBar.css" />
     <Content Include="Content\Plugin\pageBar\pageBar.js" />
     <Content Include="Content\Script\Home\home.js" />
+    <Content Include="Content\Script\Match\apply.js" />
     <Content Include="Content\Script\Match\studentworks.js" />
     <Content Include="Content\Script\News\news.js" />
     <Content Include="Content\Script\Person\forgotpassword.js" />

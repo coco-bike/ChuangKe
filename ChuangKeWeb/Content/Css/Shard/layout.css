@@ -1,7 +1,6 @@
 * {
     font-family: "微软雅黑";
 }
-
 a {
     text-decoration: none;
     list-style: none;
@@ -121,6 +120,11 @@ ul {
 .ck-buttom{
     margin-top: 30px;
 }
+.ck-background{
+    margin-top: 15px;
+    /* background-color: rgba(240, 240, 240, 1); */
+}
+
 @media screen and (max-width:777px) {
     .ck-m  .col-sm-2{
         float: left;

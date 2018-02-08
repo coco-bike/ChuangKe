@@ -8,7 +8,7 @@
 @section MySection1{
     <script src="~/Content/Script/Person/pserson.js"></script>
 }
-<div class="container">
+<div class="container ck-background">
     <div class="jumbotron">
         <div class="container">
             <div class="col-md-5 head">
@@ -27,8 +27,8 @@
     </div>
     <div class="ck-studentmessage">
         <div class="ck-samllnav">
-            <ul>
-                <li class="col-md-4 "><a href="javascript:void(0);" onclick="changefirstli()">个人资料</a></li>
+            <ul class="nav nav-tabs nav-justified">
+                <li class="col-md-4 active"><a href="javascript:void(0);" onclick="changefirstli()">个人资料</a></li>
                 <li class="col-md-4"><a href="javascript:void(0);" onclick="changesecondli()">报名资料</a></li>
                 <li class="col-md-4"><a href="javascript:void(0);" onclick="changethirdli()">参赛作品</a></li>
                 <div class="clearfloat"></div>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label class="ck-lable" for="">性别</label>
-                    <select id="city" class="select" disabled="disabled">
+                    <select id="sex" class="form-control" disabled="disabled">
                         <option value="1">男</option>
                         <option value="0">女</option>
                     </select>

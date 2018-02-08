@@ -3,33 +3,44 @@
 }
 .workname{
     font-size: 35px;
+    color: aqua;
+}
+.workname p{
+    display: inline-block;
 }
 .ck-workmessage{
     margin-top: 100px;
 }
-.leftmessage{
-    width: 50%;
-}
-.rightmessage{
-    width: 50%;
-}
+
 .ck-workshow{
     margin-top: 100px;
 }
 .ck-student{
-    margin-top: 240px;
+    margin-top: 25px;
     padding-left: 0px;
 }
 .rightmessage{
-    margin-top: 20px;
     text-align: center;
+    font-size: 20px;
+}
+.rightmessage  div{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 0 8px #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 18px 0px 18px 0px;
+    box-shadow: 5px 5px 8px #888888;
 }
 .rightmessage button{
     width: 30%;
     margin:0 auto;
 }
 .ck-workmessage{
-    border: 1px solid red;
+    border: 1px solid rgba(30, 185, 239, 0.5);
     padding: 10px;
 }
 .firstmatch,.secondmatch{
@@ -39,15 +50,18 @@
 
 .ck-student li{
     margin-top: 15px;
-    border: 1px solid red;
+    border: 1px solid rgba(30, 185, 239, 0.5);
     padding: 15px 0px 15px 0px;
 }
-.ck-workshow div:first-child{
-    border: 1px solid red;
+.ck-workshow ul{
     display: inline-block;
     height: 50px;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
+}
+.ck-poll{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(30, 185, 239, 0.5);
 }
 .ck-poll img{
     width: 300px;
@@ -56,7 +70,7 @@
     text-align: center;
 }
 .student-img img{
-    width: 100px;
+    width: 80px;
 }
 .student-name{
     text-align: center;
@@ -68,11 +82,31 @@
 .student-name div p{
  display: inline-block;
 }
+.ck-athors{
+margin-top: 260px;
+border: 1px solid rgba(30, 185, 239, 0.5);
+padding: 10px;
+}
+.ck-athors p{
+    font-size: 25px;
+}
 @media screen and (max-width: 500px){
     .rightmessage{
         width: 100%;
     }
     .ck-student{
+        margin-top: 50px;
+    }
+    .ck-poll{
+        text-align: center;
+    }
+    .workname{
+        font-size: 20px;
+    }
+    .leftmessage{
+        width: 100%;
+    }
+    .ck-athors{
         margin-top: 50px;
     }
 }

@@ -28,7 +28,13 @@
     margin: 0 auto;
     width: 30%;
 }
-
+.ck-samllnav{
+    font-size: 20px;
+}
+.ck-studentmessage{
+    margin-top: 50px;
+}
+/* 
 .ck-samllnav ul {
     padding: 0;
 }
@@ -48,7 +54,7 @@
     color: brown;
     border-bottom: 1px solid aqua;
     display: inline-block;
-}
+} */
 
 .li-style {
     margin-top: 100px;
@@ -73,18 +79,32 @@
 .li-style .form-group {
     margin-top: 20px;
 }
+#sex{
+    width: 47%;
+}
 /* .form-group label{
    width: 0px;
 } */
 
-select{
+/* select{
     display: inline-block;
     width: 48%;
     height: 34px;
-}
+} */
 /* .second-li form .form-group input{
     width: 80%;
 } */
 .ck-poll img{
     width: 300px;
+}
+@media screen and (max-width:777px) {
+    .ck-m  .col-sm-2{
+        float: left;
+    }
+    .ck-vcode .form-control{
+        width: 100%;
+    }
+    .ck-m .form-group {
+        height: 80px;
+    }
 }

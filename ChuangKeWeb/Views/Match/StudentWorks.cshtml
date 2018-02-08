@@ -8,14 +8,17 @@
 @section MySection1{
     <script src="~/Content/Script/Match/studentworks.js"></script>
 }
-<div class="container">
+<div class="container ck-background">
     <div class="col-md-9">
         <div class="ck-poll">
             <img src="../../Files/Img/Match/vote.png">
         </div>
         <div class="ck-workmessage">
             <div class="leftmessage col-md-6">
-                <p class="workname">作品名</p>
+                <div class="workname">
+                    <p>作品名：</p>
+                    <P>智能机器人</P>
+                </div>
                 <span>
                     <p>分享给朋友：</p>
                     <div class="bdsharebuttonbox">
@@ -25,11 +28,11 @@
                 </span>
             </div>
             <div class="rightmessage col-md-6">
-                <span>
-                    11111
-                </span>
+                <div>
+                  21212
+                </div>
                 <button type="button" class="btn btn-block btn-success">
-                    赞一个
+                    投票
                 </button>
             </div>
             <div class="clearfloat">
@@ -37,10 +40,14 @@
             </div>
         </div>
         <div class="ck-workshow">
-            <div>
-                <a href="javascript:void(0);" onclick="changefirst()">初赛阶段</a>
-                <a href="javascript:void(0);" onclick="changesecond()">复赛阶段</a>
-            </div>
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="active">
+                         <a href="javascript:void(0);" onclick="changefirst()">初赛阶段</a>
+                    </li>
+                    <li role="presentation">
+                         <a href="javascript:void(0);" onclick="changesecond()">复赛阶段</a>
+                    </li>
+                </ul>
             <div class="firstmatch" id="firstmatch">
                 <p>111111111111111111111111111111111</p>
                 <p>111111111111111111111111111111111</p>
@@ -140,10 +147,13 @@
         </div>
     </div>
     <div class="col-md-3">
+        <div class="ck-athors">
+            <p>作者：</p>
+        </div>
         <ul class="ck-student" id="authors">
             <li>
                <div class="student-img">
-                    <img src="../../Files/Chrysanthemum.jpg">                  
+                    <img src="../../Files/teststudent.jpg">                  
                </div>
                <div class="student-name">
                    <div>
@@ -154,9 +164,9 @@
                    </div>                   
                </div>
             </li>
-             <li>
+                        <li>
                <div class="student-img">
-                    <img src="../../Files/Chrysanthemum.jpg">                  
+                    <img src="../../Files/teststudent.jpg">                  
                </div>
                <div class="student-name">
                    <div>
@@ -166,10 +176,9 @@
                        学校：<p>南京市第一中学马群</p>
                    </div>                   
                </div>
-            </li>
-             <li>
+            </li>            <li>
                <div class="student-img">
-                    <img src="../../Files/Chrysanthemum.jpg">                  
+                    <img src="../../Files/teststudent.jpg">                  
                </div>
                <div class="student-name">
                    <div>
@@ -179,10 +188,9 @@
                        学校：<p>南京市第一中学马群</p>
                    </div>                   
                </div>
-            </li>
-             <li>
+            </li>            <li>
                <div class="student-img">
-                    <img src="../../Files/Chrysanthemum.jpg">                  
+                    <img src="../../Files/teststudent.jpg">                  
                </div>
                <div class="student-name">
                    <div>
@@ -193,6 +201,7 @@
                    </div>                   
                </div>
             </li>
+          
         </ul>
     </div>
 </div>
