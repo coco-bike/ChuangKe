@@ -32,11 +32,10 @@
             <div class="form-group">
                 <label for="exampleInputEmail1">学段</label>
                 <select class="form-control">
-                    <option>市直属</option>
-                    <option>市直属</option>
-                    <option>市直属</option>
-                    <option>市直属</option>
-                    <option>市直属</option>
+                    <option>小学</option>
+                    <option>初中</option>
+                    <option>高中</option>
+                    <option>大学</option>
                 </select>
             </div>
             <div class="form-group">
@@ -60,30 +59,42 @@
                 </select>
             </div>
             <div class="form-group ck-student">
-                <label class="ck-lable" for="">学生姓名</label>
-                <input type="text" class="form-control ck-studentinput" placeholder="学生姓名">
-                <input type="text" class="form-control ck-studentinput" placeholder="学生姓名">
-                <a href="javascript:void(0);" onclick="plusstudent()">
-                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                </a>
-                <a href="javascript:void(0);" onclick="minusstudent()">
-                    <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                </a>
+                <label class="ck-lable" for="">学生身份证,学生姓名</label>
+                <div class="ck-apply-div">
+                    <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                    <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
+                    <a href="javascript:void(0);" onclick="plusstudent()">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="ck-student-div">
+                    <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                    <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
+                    <a href="javascript:void(0);" onclick="minusstudent()">
+                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                    </a>
+                </div>
             </div>
             <div class="form-group">
-                <label class="ck-lable" for="">指导老师</label>
-                <input type="text" class="form-control ck-studentinput" placeholder="指导老师">
-                <input type="text" class="form-control ck-studentinput" placeholder="指导老师">
-                <a href="javascript:void(0);" onclick="plusteacher()">
-                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                </a>
-                <a href="javascript:void(0);" onclick="minusteacher()">
-                    <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                </a>
+                <label class="ck-lable" for="">报名人身份证，报名人姓名</label>
+                <div class="ck-apply-div">
+                    <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="报名人身份证">
+                    <input type="text" class="form-control ck-teacherinput ck-t" placeholder="报名人姓名">
+                    <a href="javascript:void(0);" onclick="plusteacher()">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="ck-apply-div">
+                    <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="报名人身份证">
+                    <input type="text" class="form-control ck-teacherinput ck-t" placeholder="报名人姓名">
+                    <a href="javascript:void(0);" onclick="minusteacher()">
+                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                    </a>
+                </div>
             </div>
-            <div class="form-group">
-                <label class="ck-lable" for="">教师电话</label>
-                <input type="text" class="form-control" id="teachernumber" placeholder="教师电话">
+               <div class="form-group">
+                <label class="ck-lable" for="">报名人电话</label>
+                <input type="text" class="form-control ck-number" placeholder="报名人电话">
             </div>
             <div class="ck-submit">
                 <button type="submit" class="btn btn-defaul">报名</button>

@@ -3,9 +3,19 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @section MySection{
+    <link href="~/Content/Plugin/bootstrap-fileinput/css/fileinput.css" rel="stylesheet" />
+    <link href="~/Content/Plugin/Ueditor/themes/default/css/ueditor.css" rel="stylesheet" />
+    <link href="~/Content/Plugin/Ueditor/third-party/codemirror/codemirror.css" rel="stylesheet" />
     <link href="~/Content/Css/Person/person.css" rel="stylesheet" />
 }
 @section MySection1{
+    <script src="~/Content/Plugin/bootstrap-fileinput/js/fileinput.js"></script>
+    <script src="~/Content/Plugin/Ueditor/ueditor.config.js"></script>
+    <script src="~/Content/Plugin/Ueditor/ueditor.all.js"></script>
+    <script src="~/Content/Plugin/Ueditor/ueditor.parse.js"></script>
+    <script src="~/Content/Plugin/bootstrap-fileinput/js/fileinput_locale_zh.js"></script>
+    <script src="~/Content/Plugin/Ueditor/third-party/codemirror/codemirror.js"></script>
+    <script src="~/Content/Plugin/Ueditor/lang/zh-cn/zh-cn.js"></script>
     <script src="~/Content/Script/Person/pserson.js"></script>
 }
 <div class="container ck-background">
@@ -126,9 +136,9 @@
                         </select>
                     </div>
                     <div class="form-group ck-student">
-                        <label class="ck-lable" for="">学生姓名</label>
-                        <input type="text" class="form-control ck-studentinput" placeholder="学生姓名">
-                        <input type="text" class="form-control ck-studentinput" placeholder="学生姓名">
+                        <label class="ck-lable" for="">学生姓名，学生身份证</label>
+                        <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                        <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
                         <a href="javascript:void(0);" onclick="plusstudent()">
                             <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
                         </a>
@@ -137,9 +147,10 @@
                         </a>
                     </div>
                     <div class="form-group">
-                        <label class="ck-lable" for="">指导老师</label>
-                        <input type="text" class="form-control ck-studentinput" placeholder="指导老师">
-                        <input type="text" class="form-control ck-studentinput" placeholder="指导老师">
+                        <label class="ck-lable" for="">指导老师，指导老师身份证，指导老师电话</label>
+                        <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="指导老师身份证">
+                        <input type="text" class="form-control ck-teacherinput ck-t" placeholder="指导老师">
+                        <input type="text" class="form-control ck-teacherinput ck-number" placeholder="指导老师电话">
                         <a href="javascript:void(0);" onclick="plusteacher()">
                             <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
                         </a>
@@ -147,12 +158,8 @@
                             <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
                         </a>
                     </div>
-                    <div class="form-group">
-                        <label class="ck-lable" for="">教师电话</label>
-                        <input type="text" class="form-control" id="teachernumber" placeholder="教师电话">
-                    </div>
                     <div class="ck-submit">
-                        <button type="submit" class="btn btn-defaul">报名</button>
+                        <button type="submit" class="btn btn-defaul">修改</button>
                     </div>
                 </form>
             </div>
@@ -160,29 +167,37 @@
         <div class="third-li li-style">
             <div class="match-1">
                 <div class="third-title">
-                    <p>文章标题：</p>
                     <div class="input-group">
-                        <div class="input-group-addon">$</div>
-                        <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                           <span class="label">文章标题</span>
+                        <input type="text" class="form-control" placeholder="请认真填写">
                     </div>
                 </div>
                 <div class="third-img">
-                    <p>文章图片</p>
-                    <div>
+                    <div class="input-group">
+                        <span class="label">文章配图</span>
+                        <div class=" kv-main">
+                            <br>
+                            <form enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <input id="file-1" type="file" data-overwrite-initial="false" data-min-file-count="1">
+                                </div>
 
+                            </form>
+                        </div>
                     </div>
                 </div>
                 <div class="third-text">
-                    <!-- 文本插件 -->
+                    <span class="label">文章内容</span>
+                    <script id="container" name="content" type="text/plain">
+                        编辑作品内容
+                    </script>
                 </div>
-                <button type="button" class="btn btn-success">button</button>
             </div>
             <div class="match-2">
                 <div class="third-title">
-                    <p>文章标题：</p>
                     <div class="input-group">
-                        <div class="input-group-addon">$</div>
-                        <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                        <div class="input-group-addon">文章配图</div>
+                        <input type="File" class="form-control" placeholder="请认真提交">
                     </div>
                 </div>
                 <div class="third-img">
@@ -194,7 +209,7 @@
                 <div class="third-text">
                     <!-- 文本插件 -->
                 </div>
-                <button type="button" class="btn btn-success">button</button>
+                <button type="button" class="btn btn-success ck-work-submit">提交</button>
             </div>
         </div>
         <div class="forth-li li-style">

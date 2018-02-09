@@ -28,12 +28,15 @@
     margin: 0 auto;
     width: 30%;
 }
-.ck-samllnav{
+
+.ck-samllnav {
     font-size: 20px;
 }
-.ck-studentmessage{
+
+.ck-studentmessage {
     margin-top: 50px;
 }
+
 /* 
 .ck-samllnav ul {
     padding: 0;
@@ -59,37 +62,44 @@
 .li-style {
     margin-top: 100px;
     width: 100%;
-    padding: 15px 15% 15px 15%;
+    padding: 25px 15% 25px 15%;
     background-color: #99CCFF;
     border-radius: 50px 0px 25px 0px;
 }
-.first-li{
+
+.first-li {
     text-align: center;
 }
+
 .second-li {
-    padding: 25px 0px 25px 0px;
+    padding: 50px 0px 25px 0px;
     background-color: #99CCFF;
     border-radius: 50px 0px 25px 0px;
     margin-top: 100px;
     display: none;
+    padding: 15px;
 }
 
 .third-li {
     display: none;
 }
-.forth-li{
+
+.forth-li {
     display: none;
 }
 
 .ck-lable {
-   width:60px; 
+    width: 60px;
 }
+
 .li-style .form-group {
     margin-top: 20px;
 }
-#sex{
+
+#sex {
     width: 47%;
 }
+
 /* .form-group label{
    width: 0px;
 } */
@@ -99,56 +109,134 @@
     width: 48%;
     height: 34px;
 } */
+
 /* .second-li form .form-group input{
     width: 80%;
 } */
-.ck-poll img{
+
+.ck-poll img {
     width: 300px;
 }
-.ck-submit-1{
+
+.ck-submit-1 {
     margin-top: 25px;
 }
-.ck-apply
-{
+
+.ck-apply {
     width: 600px;
-    margin:  0 auto;
+    margin: 0 auto;
 }
-.ck-apply p:first-child{
+
+.ck-apply p:first-child {
     color: red;
 }
-.ck-lable{
+
+.ck-lable {
     width: 100%;
 }
-.ck-studentinput{
+
+.ck-studentinput {
     display: inline-block;
-    width: 25%;
+    width: 46%;
 }
-.ck-apply a{
+
+.ck-teacherinput {
+    display: inline-block;
+    width: 31.7%;
+}
+
+.ck-apply a {
     color: rgba(51, 51, 51, 1);
 }
-.ck-submit{
+
+.ck-submit {
     width: 100%;
     text-align: center;
 }
-.ck-submit button{
+
+.ck-submit button {
     background-color: #ED8586;
 }
-@media screen and (max-width:600px) {
-  .ck-apply{
-      width: 100%;
-  }
+
+.third-text {
+    width: 100%;
 }
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.size {
+    width: 100px;
+}
+
+#actions {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.middle-center {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.file-name {
+    width: 20%;
+}
+
+.ck-process {
+    padding-top: 10px;
+}
+.third-img input-group img{
+    height: 300px;
+}
+.kv-main{
+    width: 100%;
+}
+.third-img .input-group{
+    width: 100%;
+}
+.label{
+    font-size: 25px;
+    color: dimgray;
+}
+#edui1_iframeholder{
+    height: 500px;
+}
+@media screen and (max-width:600px) {
+    .ck-apply {
+        width: 100%;
+    }
+    .ck-id {
+        width: 60%;
+    }
+    .ck-name {
+        width: 32%;
+    }
+    .ck-tid {
+        width: 60%;
+    }
+    .ck-t {
+        width: 31%;
+    }
+    .ck-number {
+        width: 92%;
+    }
+}
+
 @media screen and (max-width:777px) {
-    .ck-m  .col-sm-2{
+    .ck-m .col-sm-2 {
         float: left;
     }
-    .ck-vcode .form-control{
+    .ck-vcode .form-control {
         width: 100%;
     }
     .ck-m .form-group {
         height: 80px;
     }
-    #sex{
+    #sex {
         width: 100%;
     }
 }
