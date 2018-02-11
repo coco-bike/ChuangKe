@@ -48,57 +48,111 @@
         <div class="first-li li-style">
             <form action="" method="POST" class="form-inline" role="form">
                 <div class="form-group col-md-6">
-                    <label class="ck-lable" for="">姓名</label>
-                    <input type="name" class="form-control" id="name" placeholder="姓名" readonly="readonly">
+                    <div class="input-group ck-width">
+                        <span class="input-group-addon">身份</span>
+                        <select id="ident" class="form-control">
+                            <option value="1" checked="checked">老师</option>
+                            <option value="0">学生</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="form-group col-md-6">
-                    <label class="ck-lable" for="">性别</label>
-                    <select id="sex" class="form-control" disabled="disabled">
-                        <option value="1">男</option>
-                        <option value="0">女</option>
-                    </select>
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">学号</span>
+                        <input type="text" class="form-control" id="schoolnumber" placeholder="学号" >
+                    </div>
                 </div>
                 <div class="form-group col-md-6">
-                    <label class="ck-lable" for="">身份证</label>
-                    <input type="id" class="form-control" id="Idcard" placeholder="身份证" readonly="readonly">
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">姓名</span>
+                        <input type="name" class="form-control" id="name" placeholder="姓名" >
+                    </div>
                 </div>
                 <div class="form-group col-md-6">
-                    <label class="ck-lable" for="">出生日期</label>
-                    <input type="date" class="form-control" id="birthdate" placeholder="出生日期" readonly="readonly">
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">性别</span>
+                        <select id="sex" class="form-control">
+                            <option value="1">男</option>
+                            <option value="0">女</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="form-group col-md-6">
-                    <label class="ck-lable" for="">邮箱</label>
-                    <input type="email" class="form-control" id="email1" placeholder="邮箱" readonly="readonly">
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">身份证</span>
+                        <input type="id" class="form-control" id="Idcard" placeholder="身份证" >
+                    </div>
                 </div>
                 <div class="form-group col-md-6">
-                    <label class="ck-lable" for="">手机号</label>
-                    <input type="telnumber" class="form-control" id="number" placeholder="手机号" readonly="readonly">
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">出生日期</span>
+                        <input type="date" class="form-control" id="birthdate" placeholder="出生日期">
+                    </div>
                 </div>
                 <div class="form-group col-md-6">
-                    <label class="ck-lable" for="">学段</label>
-                    <input type="text" class="form-control" id="schoollevel" placeholder="学段" readonly="readonly">
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">邮箱</span>
+                        <input type="email" class="form-control" id="email1" placeholder="邮箱" >
+                    </div>
                 </div>
                 <div class="form-group col-md-6">
-                    <label class="ck-lable" for="">学号</label>
-                    <input type="text" class="form-control" id="schoolnumber" placeholder="学号" readonly="readonly">
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">手机号</span>
+                        <input type="telnumber" class="form-control" id="number" placeholder="手机号" >
+                    </div>
                 </div>
                 <div class="form-group col-md-6">
-                    <label class="ck-lable" for="">入学年月</label>
-                    <input type="date" class="form-control" id="schooldate" placeholder="入学年份" readonly="readonly">
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">学段</span>
+                        <input type="text" class="form-control" id="schoollevel" placeholder="学段" >
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">入学年份</span>
+                        <input type="date" class="form-control" id="schooldate" placeholder="入学年份">
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">学校所在地区</span>
+                        <input type="text" class="form-control" id="schoolarea" placeholder="学校所在区域" >
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <div class="input-group  ck-width">
+                        <span class="input-group-addon">学校</span>
+                        <input type="date" class="form-control" id="school" placeholder="学校">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="label">上传头像</span>
+                    <div class=" kv-main">
+                        <br>
+                        <form enctype="multipart/form-data">
+                            <div class="form-group">
+                                <input id="file" type="file" data-overwrite-initial="false" data-min-file-count="1">
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <div class="clearfloat">
-
                 </div>
             </form>
             <button type="submit" class="btn btn-primary ck-submit-1">保存</button>
         </div>
         <div class="second-li">
             <div class="ck-apply">
-                <form>
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="active"><a href="javascript:void(0)" onclick="change1()">报名1</a></li>
+                    <li role="presentation"><a href="#">报名2</a></li>
+                    <li role="presentation"><a href="#">报名3</a></li>
+                </ul>
+                <form id="apply-form1">
                     <div class="form-group">
                         <label for="exampleInputEmail1">地区</label>
                         <select class="form-control">
-                            <option>市直属</option>
+                            <option>1</option>
                             <option>市直属</option>
                             <option>市直属</option>
                             <option>市直属</option>
@@ -124,6 +178,9 @@
                             <option>市直属</option>
                             <option>市直属</option>
                         </select>
+                        <span class="ck-warning">
+                            请输入正确的
+                        </span>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">比赛项目</label>
@@ -136,27 +193,225 @@
                         </select>
                     </div>
                     <div class="form-group ck-student">
-                        <label class="ck-lable" for="">学生姓名，学生身份证</label>
-                        <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
-                        <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
-                        <a href="javascript:void(0);" onclick="plusstudent()">
-                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                        </a>
-                        <a href="javascript:void(0);" onclick="minusstudent()">
-                            <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                        </a>
+                        <label class="ck-lable" for="">学生身份证,学生姓名</label>
+                        <div class="ck-apply-div">
+                            <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                            <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
+                            <a href="javascript:void(0);" onclick="plusstudent()">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <div class="ck-student-div">
+                            <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                            <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
+                            <a href="javascript:void(0);" onclick="minusstudent()">
+                                <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <span class="ck-warning">
+                            请输入正确的
+                        </span>
                     </div>
                     <div class="form-group">
-                        <label class="ck-lable" for="">指导老师，指导老师身份证，指导老师电话</label>
-                        <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="指导老师身份证">
-                        <input type="text" class="form-control ck-teacherinput ck-t" placeholder="指导老师">
-                        <input type="text" class="form-control ck-teacherinput ck-number" placeholder="指导老师电话">
-                        <a href="javascript:void(0);" onclick="plusteacher()">
-                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                        </a>
-                        <a href="javascript:void(0);" onclick="minusteacher()">
-                            <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                        </a>
+                        <label class="ck-lable" for="">报名人身份证，报名人姓名</label>
+                        <div class="ck-apply-div">
+                            <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="报名人身份证">
+                            <input type="text" class="form-control ck-teacherinput ck-t" placeholder="报名人姓名">
+                            <a href="javascript:void(0);" onclick="plusteacher()">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <div class="ck-apply-div">
+                            <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="报名人身份证">
+                            <input type="text" class="form-control ck-teacherinput ck-t" placeholder="报名人姓名">
+                            <a href="javascript:void(0);" onclick="minusteacher()">
+                                <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                            </a>
+
+                        </div>
+                        <span class="ck-warning">
+                            请输入正确的
+                        </span>
+                    </div>
+                    <div class="ck-submit">
+                        <button type="submit" class="btn btn-defaul">修改</button>
+                    </div>
+                </form>
+
+                <form id="apply-form2">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">地区</label>
+                        <select class="form-control">
+                            <option>2</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">学段</label>
+                        <select class="form-control">
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">学校</label>
+                        <select class="form-control">
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                        </select>
+                        <span class="ck-warning">
+                            请输入正确的
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">比赛项目</label>
+                        <select class="form-control">
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                        </select>
+                    </div>
+                    <div class="form-group ck-student">
+                        <label class="ck-lable" for="">学生身份证,学生姓名</label>
+                        <div class="ck-apply-div">
+                            <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                            <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
+                            <a href="javascript:void(0);" onclick="plusstudent()">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <div class="ck-student-div">
+                            <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                            <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
+                            <a href="javascript:void(0);" onclick="minusstudent()">
+                                <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <span class="ck-warning">
+                            请输入正确的
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="ck-lable" for="">报名人身份证，报名人姓名</label>
+                        <div class="ck-apply-div">
+                            <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="报名人身份证">
+                            <input type="text" class="form-control ck-teacherinput ck-t" placeholder="报名人姓名">
+                            <a href="javascript:void(0);" onclick="plusteacher()">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <div class="ck-apply-div">
+                            <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="报名人身份证">
+                            <input type="text" class="form-control ck-teacherinput ck-t" placeholder="报名人姓名">
+                            <a href="javascript:void(0);" onclick="minusteacher()">
+                                <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                            </a>
+
+                        </div>
+                        <span class="ck-warning">
+                            请输入正确的
+                        </span>
+                    </div>
+                    <div class="ck-submit">
+                        <button type="submit" class="btn btn-defaul">修改</button>
+                    </div>
+                </form>
+
+                <form id="apply-form3">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">地区</label>
+                        <select class="form-control">
+                            <option>3</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">学段</label>
+                        <select class="form-control">
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">学校</label>
+                        <select class="form-control">
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                        </select>
+                        <span class="ck-warning">
+                            请输入正确的
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">比赛项目</label>
+                        <select class="form-control">
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                            <option>市直属</option>
+                        </select>
+                    </div>
+                    <div class="form-group ck-student">
+                        <label class="ck-lable" for="">学生身份证,学生姓名</label>
+                        <div class="ck-apply-div">
+                            <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                            <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
+                            <a href="javascript:void(0);" onclick="plusstudent()">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <div class="ck-student-div">
+                            <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                            <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
+                            <a href="javascript:void(0);" onclick="minusstudent()">
+                                <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <span class="ck-warning">
+                            请输入正确的
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="ck-lable" for="">报名人身份证，报名人姓名</label>
+                        <div class="ck-apply-div">
+                            <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="报名人身份证">
+                            <input type="text" class="form-control ck-teacherinput ck-t" placeholder="报名人姓名">
+                            <a href="javascript:void(0);" onclick="plusteacher()">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <div class="ck-apply-div">
+                            <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="报名人身份证">
+                            <input type="text" class="form-control ck-teacherinput ck-t" placeholder="报名人姓名">
+                            <a href="javascript:void(0);" onclick="minusteacher()">
+                                <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                            </a>
+
+                        </div>
+                        <span class="ck-warning">
+                            请输入正确的
+                        </span>
                     </div>
                     <div class="ck-submit">
                         <button type="submit" class="btn btn-defaul">修改</button>
@@ -166,9 +421,10 @@
         </div>
         <div class="third-li li-style">
             <div class="match-1">
+                <h2>初赛作品上传</h2>
                 <div class="third-title">
                     <div class="input-group">
-                           <span class="label">文章标题</span>
+                        <span class="label">文章标题</span>
                         <input type="text" class="form-control" placeholder="请认真填写">
                     </div>
                 </div>
@@ -181,35 +437,44 @@
                                 <div class="form-group">
                                     <input id="file-1" type="file" data-overwrite-initial="false" data-min-file-count="1">
                                 </div>
-
                             </form>
                         </div>
                     </div>
                 </div>
                 <div class="third-text">
                     <span class="label">文章内容</span>
-                    <script id="container" name="content" type="text/plain">
+                    <script id="container-1" name="content" type="text/plain">
                         编辑作品内容
                     </script>
                 </div>
+                <div class="ck-work-submit">
+                    <button type="button" class="btn btn-success">提交</button>
+                </div>
             </div>
             <div class="match-2">
-                <div class="third-title">
-                    <div class="input-group">
-                        <div class="input-group-addon">文章配图</div>
-                        <input type="File" class="form-control" placeholder="请认真提交">
-                    </div>
-                </div>
-                <div class="third-img">
-                    <p>文章图片</p>
-                    <div>
-
-                    </div>
-                </div>
+                <h2>复赛作品上传</h2>
                 <div class="third-text">
-                    <!-- 文本插件 -->
+                    <span class="label">文章内容</span>
+                    <script id="container-2" name="content" type="text/plain">
+                        编辑作品内容
+                    </script>
                 </div>
-                <button type="button" class="btn btn-success ck-work-submit">提交</button>
+                <div class="third-video">
+                    <div class="input-group">
+                        <span class="label">文章视频</span>
+                        <div class="kv-main">
+                            <br>
+                            <form enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <input id="file-2" type="file" data-overwrite-initial="false" data-min-file-count="1">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="ck-work-submit">
+                    <button type="button" class="btn btn-success ck-work-submit">提交</button>
+                </div>
             </div>
         </div>
         <div class="forth-li li-style">

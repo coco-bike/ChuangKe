@@ -63,7 +63,7 @@
     margin-top: 100px;
     width: 100%;
     padding: 25px 15% 25px 15%;
-    background-color: #99CCFF;
+    background-color: #EEEEEE;
     border-radius: 50px 0px 25px 0px;
 }
 
@@ -73,7 +73,7 @@
 
 .second-li {
     padding: 50px 0px 25px 0px;
-    background-color: #99CCFF;
+    background-color: #EEEEEE;
     border-radius: 50px 0px 25px 0px;
     margin-top: 100px;
     display: none;
@@ -88,16 +88,12 @@
     display: none;
 }
 
-.ck-lable {
-    width: 60px;
-}
-
 .li-style .form-group {
     margin-top: 20px;
 }
 
-#sex {
-    width: 47%;
+.ck-width{
+    width: 80% !important;
 }
 
 /* .form-group label{
@@ -131,18 +127,16 @@
     color: red;
 }
 
-.ck-lable {
-    width: 100%;
-}
+
 
 .ck-studentinput {
     display: inline-block;
-    width: 46%;
+    width: 48%;
 }
 
 .ck-teacherinput {
     display: inline-block;
-    width: 31.7%;
+    width: 48%;
 }
 
 .ck-apply a {
@@ -198,12 +192,53 @@
 .third-img .input-group{
     width: 100%;
 }
+.third-video .input-group{
+    width: 100%;
+}
 .label{
+    display: inline-block;
     font-size: 25px;
     color: dimgray;
+    padding: 0px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 #edui1_iframeholder{
     height: 500px;
+}
+#edui282_iframeholder{
+    height: 500px;
+}
+.ck-apply  span.ck-warning{
+    color: red;
+}
+.ck-apply-div {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.match-1 h2,.match-2 h2{
+    text-align: center;
+}
+.ck-work-submit{
+    margin-top: 25px;
+    text-align: center;
+}
+#apply-form1{
+    margin-top: 25px;
+}
+#apply-form2{
+    display:none;
+    margin-top: 25px; 
+}
+#apply-form3{
+    display: none;
+    margin-top: 25px;
+}
+.first-li form .form-group .input-group .input-group-addon{
+    width: 40%;
+}
+.kv-file-upload{
+    display: none;
 }
 @media screen and (max-width:600px) {
     .ck-apply {
@@ -219,10 +254,14 @@
         width: 60%;
     }
     .ck-t {
-        width: 31%;
+        width: 32%;
     }
     .ck-number {
         width: 92%;
+    }
+    .li-style{
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -236,7 +275,7 @@
     .ck-m .form-group {
         height: 80px;
     }
-    #sex {
-        width: 100%;
+    .ck-width{
+        width: 100% !important;
     }
 }

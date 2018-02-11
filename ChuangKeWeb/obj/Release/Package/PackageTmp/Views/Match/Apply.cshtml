@@ -3,17 +3,137 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @section MySection{
-    <link href="~/Content/Css/Person/apply.css" rel="stylesheet" />
+    <link href="~/Content/Css/Match/apply.css" rel="stylesheet" />
 }
-
+@section MySection1{
+    <script src="~/Content/Script/Match/apply.js"></script>
+}
 <div class="ck-head">
-    <img src="../Files/head-02.png" alt="首图">
+    <img src="../../Files/Img/Layout/bananer-3.jpg" alt="首图">
 </div>
 
 <div class="container ck-background">
-    
+    <div class="ck-applyimg">
+        <img src="../../Files/Img/Match/match-1.png" alt="报名通道首页">
+    </div>
+    <div class="ck-apply">
+        <p>特别提醒：根据要求认真填写报名表，每支队伍填写一张报名表</p>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">地区</label>
+                <select class="form-control">
+                    <option>市直属</option>
+                    <option>市直属</option>
+                    <option>市直属</option>
+                    <option>市直属</option>
+                    <option>市直属</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">学段</label>
+                <select class="form-control">
+                    <option>小学</option>
+                    <option>初中</option>
+                    <option>高中</option>
+                    <option>大学</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">学校</label>
+                <select class="form-control">
+                    <option>市直属</option>
+                    <option>市直属</option>
+                    <option>市直属</option>
+                    <option>市直属</option>
+                    <option>市直属</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">比赛项目</label>
+                <select class="form-control">
+                    <option>市直属</option>
+                    <option>市直属</option>
+                    <option>市直属</option>
+                    <option>市直属</option>
+                    <option>市直属</option>
+                </select>
+            </div>
+            <div class="form-group ck-student">
+                <label class="ck-lable" for="">学生身份证,学生姓名</label>
+                <div class="ck-apply-div">
+                    <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                    <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
+                    <a href="javascript:void(0);" onclick="plusstudent()">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="ck-student-div">
+                    <input type="text" class="form-control ck-studentinput ck-id" placeholder="学生身份证">
+                    <input type="text" class="form-control ck-studentinput ck-name" placeholder="学生姓名">
+                    <a href="javascript:void(0);" onclick="minusstudent()">
+                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="ck-lable" for="">报名人身份证，报名人姓名</label>
+                <div class="ck-apply-div">
+                    <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="报名人身份证">
+                    <input type="text" class="form-control ck-teacherinput ck-t" placeholder="报名人姓名">
+                    <a href="javascript:void(0);" onclick="plusteacher()">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="ck-apply-div">
+                    <input type="text" class="form-control ck-teacherinput ck-tid" placeholder="报名人身份证">
+                    <input type="text" class="form-control ck-teacherinput ck-t" placeholder="报名人姓名">
+                    <a href="javascript:void(0);" onclick="minusteacher()">
+                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+               <div class="form-group">
+                <label class="ck-lable" for="">报名人电话</label>
+                <input type="text" class="form-control ck-number" placeholder="报名人电话">
+            </div>
+            <div class="ck-submit">
+                <button type="submit" class="btn btn-defaul">报名</button>
+            </div>
+        </form>
+    </div>
 </div>
 
-
-
-
+<!-- <form action="" method="POST" class="form-inline" role="form">
+               <div class="form-group col-md-12">
+                   <label class="ck-lable" for="">地区</label>
+                   <input type="name" class="form-control" id="place" placeholder="地区" readonly="readonly">
+               </div>
+               <div class="form-group col-md-12">
+                   <label class="ck-lable" for="">学段</label>
+                   <input type="sex" class="form-control" id="matchschoollevel" placeholder="学段" readonly="readonly">
+               </div>
+               <div class="form-group col-md-12">
+                   <label class="ck-lable" for="">学校</label>
+                   <input type="id" class="form-control" id="school" placeholder="学校" readonly="readonly">
+               </div>
+               <div class="form-group col-md-12">
+                   <label class="ck-lable" for="">比赛项目</label>
+                   <input type="text" class="form-control" id="match" placeholder="比赛项目" readonly="readonly">
+               </div>
+               <div class="form-group col-md-12">
+                   <label class="ck-lable" for="">学生姓名</label>
+                   <input type="text" class="form-control" id="names" placeholder="学生姓名,多个请用,逗号隔开" readonly="readonly">
+               </div>
+               <div class="form-group col-md-12">
+                   <label class="ck-lable" for="">指导老师</label>
+                   <input type="number" class="form-control" id="teachers" placeholder="指导老师,多个请用,逗号隔开" readonly="readonly">
+               </div>
+               <div class="form-group col-md-12">
+                   <label class="ck-lable" for="">教师电话</label>
+                   <input type="text" class="form-control" id="teachernumber" placeholder="教师电话,多个请用,逗号隔开" readonly="readonly">
+               </div>
+               <div class="clearfloat">
+               </div>
+           </form>
+           <button type="submit" class="btn btn-primary ck-submit">报名</button>
+-->

@@ -49,7 +49,9 @@
 .ck-number{
     width: 96%;
 }
-
+.ck-apply  span.ck-warning{
+    color: red;
+}
 @media screen and (max-width:600px) {
   .ck-apply{
       width: 100%;

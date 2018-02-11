@@ -2,16 +2,20 @@
     margin-top: 80px;
     padding-left: 80px;
 }
-
+.ck-newsimg{
+    border-bottom: 1px solid rgba(30, 185, 239,0.5);
+}
 .ck-newslist li {
     width: 100%;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
 }
 
 .ck-time {
     width: 100px;
     height: 90px;
-    border: 1px solid black;
+    background-color: #999999;
 }
 
 .ck-time span {
@@ -27,9 +31,7 @@
     margin-top: 15px;
 }
 
-.ck-time span:last-child {
-    
-}
+.ck-time span:last-child {}
 
 .ck-newslist li .col-md-10 p {
     white-space: nowrap;

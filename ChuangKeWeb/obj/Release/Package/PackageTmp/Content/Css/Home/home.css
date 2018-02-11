@@ -94,7 +94,7 @@
 
 .news-title {
     font-size: 20px;
-    padding: 10px;
+    padding: 9px;
     overflow: hidden;
 }
 
@@ -109,19 +109,18 @@
     padding: 0px;
 }
 
-.news-ul li {
+.news-ul  li {
    padding: 10px;
    border-top:1px solid rgba(30, 185, 239,0.5);
 }
-.news-ul li .col-md-3 img{
+.news-ul  li a .col-md-3 img{
     width: 80px;
 }
-.news-ul li .col-md-9 a p{
-    margin-top: 10px;
+.news-ul  li a .col-md-9 .li-content p{
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
 }
 
@@ -144,4 +143,13 @@
 }
 .process-block div .col-md-2 div p{
     text-align: center;
+}
+.li-title p{
+    margin-top: 7px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }

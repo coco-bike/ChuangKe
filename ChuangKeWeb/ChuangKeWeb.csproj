@@ -490,6 +490,7 @@
     <Content Include="Files\Img\Layout\bananer-3.jpg" />
     <Content Include="Files\Img\Layout\bananer-4.jpg" />
     <Content Include="Files\Img\Layout\chuangke.png" />
+    <Content Include="Files\WallImages\imagepath\6159252dd42a28349109a6cb52b5c9ea14cebf47.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />

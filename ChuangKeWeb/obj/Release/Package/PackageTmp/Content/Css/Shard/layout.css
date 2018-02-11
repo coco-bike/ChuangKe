@@ -124,6 +124,7 @@ ul {
     margin-top: 15px;
     /* background-color: rgba(240, 240, 240, 1); */
 }
+
 @media screen and (max-width:777px) {
     .ck-m  .col-sm-2{
         float: left;

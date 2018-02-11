@@ -1,0 +1,73 @@
+/* .ck-applyimg img{
+    width: 300px;
+}
+.ck-apply form .col-md-12{
+    text-align: center;
+}
+.ck-apply form .col-md-12 label{
+    display: inline-block;
+}
+.ck-apply form .col-md-12 input{
+    display: inline-block;
+} */
+
+.ck-apply
+{
+    width: 600px;
+    margin:  0 auto;
+}
+.ck-apply p:first-child{
+    color: red;
+}
+.ck-lable{
+    width: 100%;
+}
+.ck-studentinput{
+    display: inline-block;
+    width: 48%;
+}
+.ck-teacherinput{
+    display: inline-block;
+    width: 48%;
+}
+.ck-apply a{
+    color: rgba(51, 51, 51, 1);
+}
+.ck-submit{
+    width: 100%;
+    text-align: center;
+}
+.ck-submit button{
+    width: 30%;
+    font-size: 20x;
+    background-color: #ED8586;
+}
+.ck-apply-div{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.ck-number{
+    width: 96%;
+}
+
+@media screen and (max-width:600px) {
+  .ck-apply{
+      width: 100%;
+  }
+  .ck-id{
+      width: 60%;
+  }
+  .ck-name{
+      width: 32%;
+  }
+  .ck-tid{
+      width: 60%;
+  }
+  .ck-t{
+      width: 31%;
+  }
+  .ck-number{
+      width: 92%;
+      margin-top: 15px;
+  }
+}
